@@ -8,7 +8,7 @@ let Port = process.env.PORT||5000;
 let morgan = require('morgan');
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
-let mongoUrl = process.env.MongoLocal;
+let mongoUrl ="mongodb+srv://dilip:dilip123@cluster0.va3agpe.mongodb.net/carwale?retryWrites=true&w=majority";
 let bodyParser = require('body-parser')
 let db;
 
